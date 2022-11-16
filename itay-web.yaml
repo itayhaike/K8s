@@ -12,6 +12,8 @@ spec:
   - port: 80
     targetPort: 80
     nodePort: 30005
+  externalIPs:
+    - 192.168.31.102
 ---
 apiVersion: apps/v1
 kind: Deployment
